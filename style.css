@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #6a6b69;
+    color: whitesmoke;
+    user-select: none;
+}
+
+.main-box{
+    width: 100%;
+    height: 325px;
+    
+}
+
+.allStyle {
+    background-color: #69f207;
+    color:white;
+    padding: 1.5px;
+    border: 2px solid black;
+}
+
+.main-title-text{
+    text-align: center;
+}
+
+#ct{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.checklist{
+    text-align: right;
+}
+.list {
+    margin-left: 975px;
+    z-index: 3;
+    width: 350px;
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 1px;
+}
+
+.secBox.allStyle {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 12px);
+}
+
+.secBox{
+    height: 265px;
+}
+
+.mainBoxItemsfa{
+    display: inline-block;
+}

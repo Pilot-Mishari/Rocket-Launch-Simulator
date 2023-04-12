@@ -54,5 +54,7 @@ body {
 }
 
 .mainBoxItemsfa{
-    display: inline-block;
+    height: auto;
+    width: auto;
+    display: table-row;
 }
